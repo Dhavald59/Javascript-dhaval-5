@@ -1,6 +1,6 @@
 // for loop 
-// let i;
-// for ( i = 1; i < 6; i++){
+// 
+// for ( let i = 1; i < 6; i++){
 //     console.log(i);
 // }
 // console.log("i ===>", i);
@@ -63,10 +63,24 @@
 //         console.log(i);
 //     }
 // }
+
 // pogram9
 
-// for(i=0;i<=10;i++){
-//     if(i+=i){
-//         console.log(i)
-//     }
+// let a = 1, b = 1;
+// console.log(a);
+// console.log(b);
+// for (let i = 0; i < 6; i++) {
+//     let temp = a + b; // 1 + 1 = 2
+//     console.log(temp);
+//     a = b; // 1 = 1
+//     b = temp; // 1 = 2
 // }
+
+// pogram 10
+// let a = 1, i;
+// for (i = 1; i <= 10; i++) {
+//     console.log(a * i);
+//     a *= 2
+// }
+
+
