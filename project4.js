@@ -1,19 +1,25 @@
 // pogram : 1
 
-// let mycolor = ["red", "green", "white", "black"]
+let mycolor = ["red", "green", "white", "black"]
 
-// console.log(mycolor.join(", "));
+console.log(mycolor.join(", "));
+// output : red, green, white, black
 
-// console.log("Red + Green + White + Black");
+console.log("Red + Green + White + Black");
+//  output : project4.js:7 Red + Green + White + Black
 
-// console.log(mycolor.slice(0, 3).join(", "));
+console.log(mycolor.slice(0, 3).join(", "));
+//  output : project4.js:9 red, green, white
 
-// console.log(mycolor[0]);
+console.log(mycolor[0]);
+//  output : project4.js:11 red
 
-// console.log(mycolor.slice(1, 3).join(", "));
+console.log(mycolor.slice(1, 3).join(", "));
+//  output : project4.js:13 green, white
 
-// mycolor.push("orange");
-// console.log(mycolor.join(", "));
+mycolor.push("orange");
+console.log(mycolor.join(", "));
+//  output : project4.js:16 red, green, white, black, orange
 
 ////////////////////////////////////////////////////////////////////
 
